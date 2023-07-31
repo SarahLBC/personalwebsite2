@@ -1,0 +1,67 @@
+.animated-gradient {
+  animation: animateBg 10s linear infinite;
+  background-image: linear-gradient(
+    0deg,
+    #eed9e4,
+    #e3cae5,
+    #dedce9,
+    #dce7ec,
+    #e8e1ec,
+    #eed9e4,
+    #e3cae5
+  );
+  background-size: 100% 600%;
+}
+
+.text-body-emphasis {
+  font-family: "Dancing Script", cursive;
+}
+.pb-2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
+  text-align: center;
+}
+
+@keyframes animateBg {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+.sarah-picture {
+  border-radius: 50%;
+}
+
+.container-top {
+  background-color: #ffffff80;
+  background-image: url(./images/bad84e3e-97cd-4a77-9940-bd402c2e7394.png);
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+.container-middle {
+  background-color: #ffffff80;
+  border-top: 2px solid #ffffff90;
+  border-bottom: 2px solid #ffffff90;
+}
+.container-skills {
+  background-color: #ffffff80;
+}
+.whole {
+  display: grid;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.title-crafts {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  text-align: center;
+}
+.carousel-item img {
+  max-width: 50%;
+  margin: auto;
+}
